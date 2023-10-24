@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>sheepCounter</title>
-  <link rel="stylesheet" href="styles/styles.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
 
@@ -17,27 +17,6 @@
     <button class="reset" id="reset" type="submit">reset</button>
   </div>
   
-  <script>
-    
-    let count = 0;
-    let plusOne = document.getElementById('plus');
-    let minusOne = document.getElementById('minus');
-    let reset = document.getElementById('reset');
-    let result = document.getElementById('result');
-
-    plusOne.onclick = function(){
-      count += 1;
-      result.innerHTML = count;
-    }
-    minusOne.onclick = function(){
-      count -= 1;
-      result.innerHTML = count;
-    }
-    reset.onclick = function(){
-      count = 0;
-      result.innerHTML = count;
-    }
-
-  </script>
+  <script src="java.js"></script>
 </body>
 </html>
