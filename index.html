@@ -10,24 +10,34 @@
 
   <div class="main-section">
     <h1 class="title">Do you have problems get aspeep?</h1>
-    <p class="firstPara">I can help you counting the sheeps!</p>
+    <h2 class="firstPara">I can help you counting the sheeps!</h2>
+    <label class="result" id="result">0</label>
     <button class="plus" id="plus" type="submit">+</button>
-    <p class="result"></p>
     <button class="minus" id="minus" type="submit">-</button>
+    <button class="reset" id="reset" type="submit">reset</button>
   </div>
   
   <script>
+    
+    let count = 0;
     let plusOne = document.getElementById('plus');
-    plusOne = (1);
-    const minusOne = document.getElementById('minus');
-    let result = ('plusOne + 1');
-  
-    plusOne.onclick = function counterUp(){
-      console.log(plusOne);
+    let minusOne = document.getElementById('minus');
+    let reset = document.getElementById('reset');
+    let result = document.getElementById('result');
 
+    plusOne.onclick = function(){
+      count += 1;
+      result.innerHTML = count;
     }
-    minusOne.onclick = function counterDown(){
+    minusOne.onclick = function(){
+      count -= 1;
+      result.innerHTML = count;
     }
+    reset.onclick = function(){
+      count = 0;
+      result.innerHTML = count;
+    }
+
   </script>
 </body>
 </html>

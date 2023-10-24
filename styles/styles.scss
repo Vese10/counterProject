@@ -18,7 +18,8 @@
 }
 
 .plus,
-.minus{
+.minus,
+.reset{
   width: 60px;
   height: 60px;
   border: 2px solid #a11a1a;
@@ -27,11 +28,13 @@
 }
 
 .plus:hover,
-.minus:hover{
+.minus:hover,
+.reset:hover{
   background-color: #d8c8c7;
 }
 
 .plus:active,
-.minus:active{
+.minus:active,
+.reset:active{
   background-color: #fc0000;
 }
