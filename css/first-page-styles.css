@@ -50,12 +50,47 @@
   font-family: Arial, Helvetica, sans-serif;
   font-weight: bold;
   color: #162E48;
+  margin-bottom: 20px;
 }
 
-.fall-down:hover {
+.sheeps,
+.dinosaurs,
+.alpacas {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  border: 2px solid;
+  background-color: #C1E4F8;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #162E48;
+  margin-bottom: 20px;
+}
+
+.fall-down:hover,
+.sheeps:hover,
+.dinosaurs:hover,
+.alpacas:hover {
   background-color: #FFE753;
 }
 
-.fall-down:active {
+.fall-down:active,
+.sheeps:active,
+.dinosaurs:active,
+.alpacas:active {
   background-color: #C1E4F8;
+}
+
+.animal-choice {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 380px;
+  display: none;
 }/*# sourceMappingURL=first-page-styles.css.map */
