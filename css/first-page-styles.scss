@@ -58,7 +58,7 @@ $third-color: #FFE753;
 }
 
 .sheeps,
-.dinosaurs,
+.cats,
 .alpacas{
   display: flex;
   justify-content: center;
@@ -78,14 +78,14 @@ $third-color: #FFE753;
 
 .fall-down:hover,
 .sheeps:hover,
-.dinosaurs:hover,
+.cats:hover,
 .alpacas:hover{
   background-color: $third-color;
 }
 
 .fall-down:active,
 .sheeps:active,
-.dinosaurs:active,
+.cats:active,
 .alpacas:active{
   background-color: $second-color;
 }
@@ -97,4 +97,10 @@ $third-color: #FFE753;
   align-items: center;
   width: 380px;
   display: none;
+}
+
+.audioSheep,
+.audioCat,
+.audioAlpaca{
+  display: none;  
 }

@@ -54,7 +54,7 @@
 }
 
 .sheeps,
-.dinosaurs,
+.cats,
 .alpacas {
   display: flex;
   justify-content: center;
@@ -74,14 +74,14 @@
 
 .fall-down:hover,
 .sheeps:hover,
-.dinosaurs:hover,
+.cats:hover,
 .alpacas:hover {
   background-color: #FFE753;
 }
 
 .fall-down:active,
 .sheeps:active,
-.dinosaurs:active,
+.cats:active,
 .alpacas:active {
   background-color: #C1E4F8;
 }
@@ -92,5 +92,11 @@
   justify-content: space-around;
   align-items: center;
   width: 380px;
+  display: none;
+}
+
+.audioSheep,
+.audioCat,
+.audioAlpaca {
   display: none;
 }/*# sourceMappingURL=first-page-styles.css.map */

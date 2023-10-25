@@ -3,19 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>sheepCounter</title>
+  <title>sleepCounter</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico">
   <link rel="stylesheet" href="css/first-page-styles.css">
 </head>
 <body>
+  <audio class="audioSheep" id="audioSheep" controls>
+    <source src="audios/sheep.mp3" type="audio/mpeg">
+  </audio>
+  <audio class="audioCat" id="audioCat" controls>
+    <source src="audios/cat.mp3" type="audio/mpeg">
+  </audio>
+  <audio class="audioAlpaca" id="audioAlpaca" controls>
+    <source src="audios/alpaca.mp3" type="audio/mpeg">
+  </audio>
   <img class="first-page-background" src="images/first-page-background.jpg" alt="Night sky with clouds and stars">
   <div class="main-section">
     <h1 class="title">Are you trying hard to get asleep?</h1>
     <h2 class="firstPara">No problem! With our new application you'll fall in a sec!</h2>
     <a class="fall-down" id="fall-down" type="button">Fall Down!</a>
     <div class="animal-choice" id="animal-choice">
-      <a class="sheeps" id="sheeps" type="button" href="sheeps.html">Sheeps</a>
-      <a class="dinosaurs" id="dinosaurs" type="button" href="dinosaurs.html">Dinosaurs</a>
-      <a class="alpacas" id="alpacas" type="button" href="alpacas.html">Alpacas</a>
+      <a class="sheeps" id="sheeps" type="button" href="sheeps.html" target="_blank" rel="noopener">Sheeps</a>
+      <a class="cats" id="cats" type="button" href="cats.html" target="_blank" rel="noopener">Cats</a>
+      <a class="alpacas" id="alpacas" type="button" href="alpacas.html" target="_blank" rel="noopener">Alpacas</a>
     </div>
   </div>
   
