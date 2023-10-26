@@ -64,8 +64,9 @@ $third-color: #FFE753;
   justify-content: center;
   text-align: center;
   align-items: center;
-  width: 80px;
-  height: 80px;
+  width: 100%;
+  height: 100%;
+  min-height: 50px;
   border: 2px solid;
   background-color: $second-color;
   cursor: pointer;
@@ -74,6 +75,8 @@ $third-color: #FFE753;
   font-weight: bold;
   color: $first-color;
   margin-bottom: 20px;
+  margin: 0 2px;
+  font-size: 20px;
 }
 
 .fall-down:hover,
@@ -93,9 +96,11 @@ $third-color: #FFE753;
 .animal-choice{
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
   align-items: center;
-  width: 380px;
+  width: 100%;
+  min-width: 255px;
+  max-width: 700px;
+  height: 100px;
   display: none;
 }
 

@@ -18,10 +18,11 @@
   align-items: center;
   position: relative;
   padding-top: 150px;
+  margin: 0 40px;
 }
 
 .result {
-  font-size: 30px;
+  font-size: 45px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -30,17 +31,39 @@
   border: 2px solid #162E48;
   margin: 20px;
   background-color: #C1E4F8;
+  color: #162E48;
 }
 
 .plus,
 .minus,
 .reset {
-  width: 60px;
-  height: 60px;
-  border: 2px solid #162E48;
-  margin: 20px;
-  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  min-height: 50px;
+  border: 2px solid;
   background-color: #C1E4F8;
+  cursor: pointer;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  color: #162E48;
+  margin-bottom: 20px;
+  margin: 0 2px;
+  font-size: 30px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  min-width: 255px;
+  max-width: 700px;
+  height: 100px;
 }
 
 .plus:hover,
