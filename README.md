@@ -1,6 +1,7 @@
 # sleepCounter
-> This is a counter. You can take traces of you count by clicking the + or - buttons.
+> Get aspleep with sheeps, cats or alpacas!.
 
+This is a counter. You can take traces of you count by clicking the + or - buttons
 It's the final project made in order to test JavaScript Basics knowledge of the author aftre his first approach with this language.
 
 ![](https://vese10.github.io/images/first-page-background.jpg)
